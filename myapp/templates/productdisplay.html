@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Image Name</th>
+    <th>price</th>
+    <th>description</th>
+    <th>image</th>
+  </tr>
+
+  {% for i,j,k,l in mylist %}
+<!--  i=image, j=name-->
+  <tr>
+    <td>{{j}}</td>
+    <td>{{k}}</td>
+    <td>{{l}}</td>
+    <td><img src="{% static i %}" height="200px" width="200px"> </td>
+  </tr>
+  {% endfor %}
+</table>
+</body>
+</html>

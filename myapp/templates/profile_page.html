@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <style>
+       #a {-->
+           background-color: white;
+            height: 670px;
+            width: 400px;
+           margin-left: 500px;
+           padding: 50px;
+           margin-top: 40px;
+           border-radius: 50px;
+
+        .form-label {
+            color: grey;
+        }
+
+
+        }
+
+        .pass {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        .btn {
+            margin-left: 108px;
+        }
+
+
+        .cb {
+            margin-top: 20px;
+        }
+
+        #b2 {
+            height: 50px;
+            width: 400px;
+            background-color: rgb(235, 225, 225);
+            margin-left: 500px;
+            color: black;
+        }
+
+        #x {
+            color: black;
+        }
+
+        p {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .body{
+           background-color: #8EC5FC;
+          background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+        }
+
+        #getconnectedus {
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+            margin-right:900px;
+
+
+        }
+
+        #fcb {
+            padding-left: 630px;
+            padding-bottom: 10px;
+            color: blue;
+        }
+
+        #linkdin {
+            color: blue;
+        }
+
+        #twitter {
+            color: aqua;
+        }
+
+        #instagram {
+            color: red;
+       }
+      #am{
+           padding-left: 100px;
+       }
+       #paracl{
+            color: white;
+       }
+       .navbar{
+         background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+       }
+       #log{
+           text-align: center;
+           color:blue;-->
+          padding-bottom: 30px;
+        }
+        #rr{
+        padding-left: 300px;
+        padding-top: 100px;
+        }
+        #upldbt{
+        margin-top: 50px;
+        margin-left: 30px;
+        }
+        #viewbt{
+        margin-top: 50px;
+        margin-left: 30px;
+        }
+        #viewposted{
+        margin-top: 50px;
+        margin-left: 30px;
+
+        }
+
+
+
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f7c3f44c97.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="sam"><i class="fa-brands fa-amazon " ></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" id="fh">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:8000/myapp/shoplogin/" id="hf">Login</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:8000/myapp/shopregister/" id="hz">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="fv">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="hez">Contact</a>
+
+
+
+
+
+
+            </ul>
+              <a href="http://127.0.0.1:8000/myapp/shop_notification/"><i class="fa-solid fa-bell" style="color:white; margin-right: 7px;"></i></a>
+
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: white;"></i>
+                <!-- <i class="fa-light fa-magnifying-glass" id="ser"></i> -->
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                  <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeftt"><i class="fa-solid fa-bars" ></i></button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasleftLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasLeftLabel" style="color:red;">{{shopname}}</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+    <li><hr class="dropdown-divider"></li>
+  <div class="offcanvas-body">
+    <h6><a href="">Home</a></h6><br>
+      <h6><a href="">analystic</a></h6><br>
+      <h6><a href="">uploads</a></h6><br>
+      <h6><a href="">logout</a></h6>
+  </div>
+</div>
+              </form>
+
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid" id="sm">
+        <div class="row" id="rr">
+          <div class="col-3"id="fli">
+            <div class="card" style="width: 200px;height: 350px;">
+              <img src="{% static 'uploadproduct.png' %}"height=200px; width="200px" class="card-img-top" alt="..." id="louisphilipeshirt">
+              <div class="card-body">
+
+                <a href="http://127.0.0.1:8000/myapp/productupload/" class="btn btn-primary" id="upldbt">upload product</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 200px;height: 350px;">
+              <img src="{% static 'view.product.png' %}" class="card-img-top" alt="..." id="levisjeans">
+              <div class="card-body">
+
+                <a href="http://127.0.0.1:8000/myapp/productdisplay/" class="btn btn-primary" id="viewbt">view your post</a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 200px;height: 350px;"id="ultra">
+              <img src="{% static 'view.posted.product.jpg' %}" class="card-img-top" alt="..." id="uspolotshirt">
+              <div class="card-body">
+
+                <a href="http://127.0.0.1:8000/myapp/viewallproducts/" class="btn btn-primary" id="viewposted">other shop</a>
+
+              </div>
+            </div>
+          </div>
+
+<!--    <div class="container-fluid" id="getconnectedus">-->
+<!--        <p>get connected with us</p>-->
+<!--        <i class="fa-brands fa-facebook" id="fcb"></i>-->
+<!--        <i class="fa-brands fa-linkedin" id="linkdin"></i>-->
+<!--        <i class="fa-brands fa-twitter" id="twitter"></i>-->
+<!--        <i class="fa-brands fa-instagram" id="instagram"></i>-->
+<!--    </div>-->
+
+<!--    <div class="container" id="paracl">-->
+<!--        <div class="row">-->
+<!--            <div class="col">-->
+<!--                <h6 id="am">amazon</h6>-->
+<!--                <p align="justify">Amazon.com, Inc. is an American multinational technology company focusing on-->
+<!--                    e-commerce, cloud-->
+<!--                    computing, online advertising, digital streaming, and artificial intelligence</p>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <h6>product</h6>-->
+<!--                mens dress<br>-->
+<!--                womens dress-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <h6>contact</h6>-->
+<!--                Company Logo. Organization: Amazon.in. Toll free Number(s):. 1800 3000 9009. 1800 419 7355.-->
+
+<!--            </div>-->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
